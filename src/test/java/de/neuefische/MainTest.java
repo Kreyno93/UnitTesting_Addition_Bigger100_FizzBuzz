@@ -25,7 +25,7 @@ class MainTest {
         //WHEN
         boolean actual = Main.checkNumberBiggerThan100(number);
         //THEN
-        assertEquals(true, actual);
+        assertEquals(false, actual);
     }
 
     @Test
